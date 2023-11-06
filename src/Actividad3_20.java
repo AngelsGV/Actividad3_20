@@ -8,6 +8,7 @@ public class Actividad3_20{
         double suma = 0;
         while (dinero >= 0) {
             System.out.println("¿Cuanto dinero tienes?");
+            //Si pedimos lugares especificos no sería un bucle infinito, por eso no he hecho las preguntas del enunciado.
             dinero = sc.nextDouble();
             suma = suma + dinero;
 
@@ -15,6 +16,6 @@ public class Actividad3_20{
                 break;  // Si el usuario ingresa 0, salimos del bucle
             }
         }
-        System.out.println("El dinero total es: " + suma + "€");
+        System.out.println("El dinero total es: " + suma + " €");
     }
 }
